@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0ea2e1-8139-4206-b35e-5ca048ec3b94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/排序/code_java/bubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构与算法/排序/code_java/insertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/知识点整理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据结构与算法/排序/code_java/selectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/排序/code_java/selectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/insert_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/select_sort.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +28,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/code_java/insertSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/select_sort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/insert_sort.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -69,6 +80,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -85,6 +103,8 @@
         <option value="$PROJECT_DIR$/数据结构与算法/排序/code_java/bubbleSort.java" />
         <option value="$PROJECT_DIR$/../javacode/src/bubbleSort.java" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/code_java/insertSort.java" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/selectSort.py" />
+        <option value="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/insert_sort.py" />
       </list>
     </option>
   </component>
@@ -131,7 +151,7 @@
               <item name="learning_note" type="462c0819:PsiDirectoryNode" />
               <item name="数据结构与算法" type="462c0819:PsiDirectoryNode" />
               <item name="排序" type="462c0819:PsiDirectoryNode" />
-              <item name="code_java" type="462c0819:PsiDirectoryNode" />
+              <item name="code_pyhon" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +218,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25432277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,6 +306,16 @@
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/select_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/insert_sort.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
