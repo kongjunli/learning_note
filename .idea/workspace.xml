@@ -18,7 +18,11 @@
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/常用命令/linux命令总结.md">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -49,6 +53,7 @@
         <option value="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/selectSort.py" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/insert_sort.py" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/code_pyhon/bubble_sort.py" />
+        <option value="$PROJECT_DIR$/常用命令/linux命令总结.md" />
       </list>
     </option>
   </component>
@@ -149,9 +154,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25864553" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25864553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -169,7 +173,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292232" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.41060418" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41060418" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -294,7 +298,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/常用命令/linux命令总结.md">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
