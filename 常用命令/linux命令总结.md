@@ -55,8 +55,8 @@
 >    linux变量分为永久变量和临时变量，永久变量需要更改配置文件，临时变量只需要在bash中export，关闭bash则失效
 >    永久变量设置：
 - /etc/profile: 对liunx下所有用户有效，且是永久的(全局)
-- ~./bash_profile:** login shell**，对liunx下当前工作用户有效，存在于当前用户主目录下(~)且是永久的(单一用户)
-- ~./bashrc:** no login shell**，对liunx下当前工作用户有效，存在于当前用户主目录下(~)且是永久的(单一用户)
+- \~./bash_profile:** login shell**，对liunx下当前工作用户有效，存在于当前用户主目录下(~)且是永久的(单一用户)
+- \~./bashrc:** no login shell**，对liunx下当前工作用户有效，存在于当前用户主目录下(~)且是永久的(单一用户)
 
 >    **永久变量定义后要使用source 命令使其生效**
 
