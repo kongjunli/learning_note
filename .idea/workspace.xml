@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b0ea2e1-8139-4206-b35e-5ca048ec3b94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/数据结构与算法/数据结构与算法.md" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构与算法/数据结构与算法.md" afterDir="false" />
-    </list>
+    <list default="true" id="8b0ea2e1-8139-4206-b35e-5ca048ec3b94" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/数据结构与算法/数据结构与算法.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
@@ -42,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/编程语言/python3.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -95,9 +93,9 @@
         <option value="$PROJECT_DIR$/知识点整理.md" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/leetcode.md" />
         <option value="$PROJECT_DIR$/编程语言/java.md" />
-        <option value="$PROJECT_DIR$/编程语言/python3.md" />
         <option value="$PROJECT_DIR$/数据结构与算法/排序/数据结构与算法.md" />
         <option value="$PROJECT_DIR$/数据结构与算法/数据结构与算法.md" />
+        <option value="$PROJECT_DIR$/编程语言/python3.md" />
       </list>
     </option>
   </component>
@@ -208,7 +206,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.28170028" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -320,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/编程语言/python3.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据结构与算法/leetcode.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2222">
@@ -344,6 +334,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="278" column="3" selection-start-line="278" selection-start-column="3" selection-end-line="278" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程语言/python3.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
