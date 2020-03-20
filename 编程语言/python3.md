@@ -1,20 +1,19 @@
 **1.sort() sorted()**
-
+> **基本知识点**
 > * sort()是**list**的方法，对list进行**原地**排序，即不会产生新的list
 > * sorted() 能够对所有的iterable排序，会返回一个新的**list** iterable->list
-> 常见总结
+
+> **常用总结**
 
 >> * sorted()
 
->>>  <font color="red">对字典的key进行排序</font>
-```
+>>>  <font color=red>对字典的key进行排序</font>
+```python
 sorted({1: 'D', 2: 'B', 3: 'B', 4: 'E', 5: 'A'})  #[1,2,3,4,,5]
 ```
->>> <font color="red">key参数的使用</font>
-```
-'''
-key参数是一个函数，会作用于iterable的每个元素，将函数的返回结果作为排序对象
-'''
+>>> <font color=red>key参数的使用</font>
+```python
+#key参数是一个函数，会作用于iterable的每个元素，将函数的返回结果作为排序对象
 student_tuples = [
 ...     ('john', 'A', 15),
 ...     ('jane', 'B', 12),
