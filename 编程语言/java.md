@@ -1,3 +1,8 @@
+#包说明
+
+	java.lang: java语言的基础类，如String,Array,Object等
+	java.util : java的collection集合相关的类，以及工具类
+
 **1.String类**
 
 > **基本知识点**
@@ -39,7 +44,23 @@
 	 Collections.sort(List l)：对列表进行升序排序
 	 Collections.sort(List l, Comparator c)：对列表按照指定的比较器进行升序排序
 
-**6.& &&**
+**6.Array  Arrays ArrayList**
+
+> **基本知识点**
+
+	Array ([]): 属于java.lang.reflect包，属于基础类，父类为java.lang.Object  ，创建数组和访问数组
+	Arrays:  属于java.util包，即属于java的collection框架,提供排序、搜索、转换等操作，数组(Array)作为其参数，方法基本为static方法，即由类直接调用Arrays.function
+	ArrayList: 属于java.util包，实现了List接口,主要功能是提供了一个可变长度的数组
+	关系：Array是java里数组的基本类型，长度不可变，即插入和删除操作很困难;ArrayList是java集合类，是实现了List的接口，即改变了Array的上述弊端，使数组具备了List的性质，可变长度，插入删除操作方便;Arrays是提供了更丰富的数组操作
+
+
+> **常用总结**
+
+	 ArrayList->[]: toArray()
+	 []->ArrayLsit: Arrays.aslist([])
+	 [] 和Arrays: Arrays.sort([]) Arrays.toString()
+
+**7.& &&**
 
 > **基本知识点**
 

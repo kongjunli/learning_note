@@ -103,3 +103,76 @@ class Solution:
         return smallest
 
 ```
+
+**3.摆动排序**
+
+> * 解决思路：
+
+	将数组逆序排序，分为一大一小两部分，然后交叉
+	实现时可以不用逆序排序，在交叉时逆序交叉。数组被分为 小[0,(len-1)/2]和大[(len+1)/2,len-1]，交叉时分别从(len-1)/2和len-1开始进行
+	tips: (len-1)/2是数组中间值索引 对长度为奇数偶数都适用
+	注意：while循环时需要考虑两部分数组长度不等，不会同时走完
+> * 题目
+	给定一个无序的数组 nums，将它重新排列成 nums[0] < nums[1] > nums[2] < nums[3]... 的顺序。
+	示例 1:
+	输入: nums = [1, 5, 1, 1, 6, 4]
+	输出: 一个可能的答案是 [1, 4, 1, 5, 1, 6]
+	示例 2:
+	输入: nums = [1, 3, 2, 2, 3, 1]
+	输出: 一个可能的答案是 [2, 3, 1, 3, 1, 2]
+
+<font color=red>java代码</font>
+
+```java
+class Solution {
+    public void wiggleSort(int[] nums) {
+        int n=nums.length;
+        Arrays.sort(nums);
+        List<Integer> result=new ArrayList();
+        int ps=(n-1)/2;
+        int pl=n-1;
+
+        while(pl>(n-1)/2 && ps>=0){
+            result.add(nums[ps--]);
+            result.add(nums[pl--]);
+        }
+        while(ps>=0)
+            result.add(nums[ps--]);
+        while(pl>(n-1)/2)
+            result.add(nums[pl--]);
+        for (int i=0;i<n;i++){
+            nums[i]=result.get(i);
+        }
+    }
+}
+//当坐标情况是以上四种关系时，则是不重合的情况
+```
+
+<font color=red>python代码</font>
+
+```python
+class Solution:
+    def wiggleSort(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        tmp=[]
+        nums.sort()#不逆序，升序排序
+        l=len(nums)
+        ps=int((l-1)/2)
+        pl=l-1
+        while (ps>=0 and pl>int((l-1)/2)):
+            tmp.append(nums[ps])
+            ps=ps-1
+            tmp.append(nums[pl])
+            pl=pl-1
+        while(ps>=0):
+            tmp.append(nums[ps])
+            ps=ps-1
+        while(pl>int((l-1)/2)):
+            tmp.append(nums[pl])
+            pl=pl-1
+        for i in range(0,l):
+            nums[i]=tmp[i]
+
+```
